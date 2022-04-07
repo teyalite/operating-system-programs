@@ -50,3 +50,10 @@ main.c:5:5: warning: useless type name in empty declaration
     5 |     int; /// One warning here
       |     ^~~
 ```
+##### Another example with the [error.c](https://github.com/teyalite/operating-system-programs/blob/main/Gcc%20log%20parser/error.c) file:
+>gcc parse-gcc-log.c && ./a.out error.c<br>
+**output:**<br>
+```
+Unique lines with warnings: 3
+Unique lines with errors: 4
+```
